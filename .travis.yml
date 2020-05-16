@@ -1,7 +1,4 @@
 language: python
-python: 
-              -3.8.2
-install: 
-            -pip install -r requirements.text
-script: 
-            -python manage.py test
+python: -3.8.2
+install: -pip install -r requirements.text
+script: -python manage.py test
